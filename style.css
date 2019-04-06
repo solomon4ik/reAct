@@ -7,37 +7,21 @@ input, label {
   margin: .4rem 0;
 }
 
-.note {
-  font-size: .8em;
-}
-
-#main-container {
-  margin-bottom: 20px;
-}
-
-.card {
-  width: 18rem;
-}
-
-#name {
-  cursor: pointer;
-}
-
 .container {
   width: 70vw;
   max-height: 70vh;
   margin: 10vh auto 0;
 }
 
-.users-container {
+#movies-container {
   width: 70vw;
-  max-height: 40vh;
+  max-height: 70vh;
   border: 1px solid #555;
   margin: 0 auto;
   overflow-y: auto;
 }
 
-.user {
+.movie {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,7 +30,7 @@ input, label {
           align-items: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 20px;
+  padding: 7px;
 }
 
 a {
@@ -57,7 +41,7 @@ small, small a {
   color: #808080;
 }
 
-.user-data {
+.user-movie {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
