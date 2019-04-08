@@ -46,4 +46,8 @@ small, small a {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
+
+img {
+  height: 450px;
+}
 /*# sourceMappingURL=style.css.map */
